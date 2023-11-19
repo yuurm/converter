@@ -1,0 +1,1 @@
+SELECT Dataset<Row> result = df.agg(functions.sum("column_name")); FROM table_name;
